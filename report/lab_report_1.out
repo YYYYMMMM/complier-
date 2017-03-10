@@ -1,0 +1,38 @@
+\BOOKMARK [1][-]{section.1}{Objective}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Project Logic}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Project Environment}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Lexical Analyzer}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Keywords}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Numbers and Identifiers}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Blank Characters and Comments}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Test}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Syntax Analyzer}{}% 9
+\BOOKMARK [1][-]{section.4}{Abstract Syntax Tree}{}% 10
+\BOOKMARK [1][-]{section.5}{semantic analysis}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Symbol Table}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{Semantic Checking}{section.5}% 13
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Variables and functions should be declared before usage}{subsection.5.2}% 14
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Variables and functions should not be redeclared}{subsection.5.2}% 15
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Reserved words can not be used as identifiers}{subsection.5.2}% 16
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Program must contain a function int main\(\) to be the entrance}{subsection.5.2}% 17
+\BOOKMARK [3][-]{subsubsection.5.2.5}{The number and type of variable\(s\) passed should match the definition of the function}{subsection.5.2}% 18
+\BOOKMARK [3][-]{subsubsection.5.2.6}{Use [] operator to a non-array variable is not allowed}{subsection.5.2}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.7}{The . operator can only be used to a struct variable}{subsection.5.2}% 20
+\BOOKMARK [3][-]{subsubsection.5.2.8}{break and continue can only be used in a for-loop}{subsection.5.2}% 21
+\BOOKMARK [3][-]{subsubsection.5.2.9}{Right-value can not be assigned by any value or expression}{subsection.5.2}% 22
+\BOOKMARK [3][-]{subsubsection.5.2.10}{The condition of if statement should be an expression with int type}{subsection.5.2}% 23
+\BOOKMARK [3][-]{subsubsection.5.2.11}{The condition of for should be an expression with int type or epsilon}{subsection.5.2}% 24
+\BOOKMARK [3][-]{subsubsection.5.2.12}{Only expression with type int can be involved in arithmetic}{subsection.5.2}% 25
+\BOOKMARK [3][-]{subsubsection.5.2.13}{Other details}{subsection.5.2}% 26
+\BOOKMARK [1][-]{section.6}{Intermediate Representation Code Translation}{}% 27
+\BOOKMARK [2][-]{subsection.6.1}{Intermediate Representation}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.2}{Translate}{section.6}% 29
+\BOOKMARK [3][-]{subsubsection.6.2.1}{EXPS translate}{subsection.6.2}% 30
+\BOOKMARK [3][-]{subsubsection.6.2.2}{FUNC translate}{subsection.6.2}% 31
+\BOOKMARK [3][-]{subsubsection.6.2.3}{STMT translate}{subsection.6.2}% 32
+\BOOKMARK [1][-]{section.7}{Optimization}{}% 33
+\BOOKMARK [2][-]{subsection.7.1}{Subexpression elimination}{section.7}% 34
+\BOOKMARK [2][-]{subsection.7.2}{Instruction Selection}{section.7}% 35
+\BOOKMARK [1][-]{section.8}{Machine Code Generation}{}% 36
+\BOOKMARK [2][-]{subsection.8.1}{Project Test}{section.8}% 37
+\BOOKMARK [1][-]{section.9}{Acknowledgement}{}% 38
