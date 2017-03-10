@@ -1,4 +1,4 @@
-
+# Files and its function
 
 ReadMe: readme file
 smallc.y: Yacc program
@@ -13,3 +13,19 @@ header.h: header.h
 lzb.s: MIPS code of read() and write()
 semantics.h: to check semantic errors
 optimize.h: do some optimizations and allocate registers
+
+test: test MIPS code
+
+
+
+For implementation details, please refer to report.pdf 
+
+## Linux Version
+
+To make sure linux version can run correctly, please install Flex and Bison tool
+
+## Windows(VS 2015) version
+
+https://sourceforge.net/p/winflexbison/wiki/Visual%20Studio%20custom%20build%20rules/
+
+will help to establish working environment
