@@ -1,0 +1,144 @@
+program
+program
+|
+|_extdefs
+extdefs
+  |
+  |_extdef func
+extdef func
+  | |
+  | |_int
+int
+  | | 
+  | |
+  | |_func ()
+func ()
+  | | |
+  | | |_main
+main
+  | | | 
+  | | |
+  | | |_NULL
+NULL
+  | |   
+  | |
+  | |_stmtblock {}
+stmtblock {}
+  |   |
+  |   |_defs1
+defs1
+  |   | |
+  |   | |_int
+int
+  |   | | 
+  |   | |
+  |   | |_decs
+decs
+  |   | | |
+  |   | | |_var
+var
+  |   | |   |
+  |   | |   |_x
+x
+  |   | |     
+  |   | |
+  |   | |_NULL
+NULL
+  |   |   
+  |   |
+  |   |_stmts
+stmts
+  |     |
+  |     |_read stmt
+read stmt
+  |     | |
+  |     | |_exps arr
+exps arr
+  |     |   |
+  |     |   |_x
+x
+  |     |   | 
+  |     |   |
+  |     |   |_NULL
+NULL
+  |     |     
+  |     |
+  |     |_stmts
+stmts
+  |       |
+  |       |_stmt: exp;
+stmt: exp;
+  |       | |
+  |       | |_exp
+exp
+  |       |   |
+  |       |   |_=
+=
+  |       |     |
+  |       |     |_exps arr
+exps arr
+  |       |     | |
+  |       |     | |_x
+x
+  |       |     | | 
+  |       |     | |
+  |       |     | |_NULL
+NULL
+  |       |     |   
+  |       |     |
+  |       |     |_+
++
+  |       |       |
+  |       |       |_exps arr
+exps arr
+  |       |       | |
+  |       |       | |_x
+x
+  |       |       | | 
+  |       |       | |
+  |       |       | |_NULL
+NULL
+  |       |       |   
+  |       |       |
+  |       |       |_10
+10
+  |       |         
+  |       |
+  |       |_stmts
+stmts
+  |         |
+  |         |_write stmt
+write stmt
+  |         | |
+  |         | |_exps arr
+exps arr
+  |         |   |
+  |         |   |_x
+x
+  |         |   | 
+  |         |   |
+  |         |   |_NULL
+NULL
+  |         |     
+  |         |
+  |         |_stmts
+stmts
+  |           |
+  |           |_return stmt
+return stmt
+  |           | |
+  |           | |_return
+return
+  |           | | 
+  |           | |
+  |           | |_0
+0
+  |           |   
+  |           |
+  |           |_NULL
+NULL
+  |             
+  |
+  |_NULL
+NULL
+    
